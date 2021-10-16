@@ -1,6 +1,8 @@
 import pyautogui
 import os
 import time
+from plyer import notification
+
 
 # For getting desktop path
 Desktoppath = os.path.join((os.environ['USERPROFILE']),'Desktop')
@@ -47,6 +49,11 @@ imagepath = os.path.join(datefolderpath,imagename)
 # for create screenshot in store in spacif location
 def makescreenshot():
     pyautogui.screenshot(imagepath)
+    notification.notify(
+        title = "Screenshot Saved",
+        message = f"Screenshot Saved in {imagepath}",
+        timeout = 3
+    )
 
 
 
