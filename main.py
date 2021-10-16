@@ -38,22 +38,18 @@ def datefolder():
         # print("datefolder created")
 
 
-# for each image name with time
-imagename = time.strftime(r"%H-%M-%S.png")
-# print(imagename)
-
-# for each image path
-imagepath = os.path.join(datefolderpath,imagename)
-# print(imagepath)
-
 # for create screenshot in store in spacif location
 def makescreenshot():
+        
+    # for each image name with time
+    imagename = time.strftime(r"%H-%M-%S.png")
+    # print(imagename)
+
+    # for each image path
+    imagepath = os.path.join(datefolderpath,imagename)
+    # print(imagepath)
+
     pyautogui.screenshot(imagepath)
-    notification.notify(
-        title = "Screenshot Saved",
-        message = f"Screenshot Saved in {imagepath}",
-        timeout = 1
-    )
 
 
 while True:  # making a loop
@@ -66,7 +62,7 @@ while True:  # making a loop
             makescreenshot()
 
     except:
-        break  
+        break 
 
 
 
