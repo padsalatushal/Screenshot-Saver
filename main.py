@@ -2,7 +2,7 @@ import pyautogui
 import os
 import time
 from plyer import notification
-
+import keyboard
 
 # For getting desktop path
 Desktoppath = os.path.join((os.environ['USERPROFILE']),'Desktop')
@@ -52,12 +52,26 @@ def makescreenshot():
     notification.notify(
         title = "Screenshot Saved",
         message = f"Screenshot Saved in {imagepath}",
-        timeout = 3
+        timeout = 1
     )
 
 
+while True:  # making a loop
+    try:  # used try so that if user pressed other than the given key error will not be shown
+        if keyboard.is_pressed('ctrl+shift+q'):  # if key 'ctrl + shift +q' is pressed 
+                break  # finishing the loop
+        elif keyboard.is_pressed('ctrl+space'):
+            ssfolder()
+            datefolder()
+            makescreenshot()
+
+    except:
+        break  
 
 
-ssfolder()
-datefolder()
-makescreenshot()
+
+
+
+# ssfolder()
+# datefolder()
+# makescreenshot()
