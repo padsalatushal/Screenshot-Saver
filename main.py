@@ -67,7 +67,6 @@ while True:  # making a loop
 
 
 
-
 # ssfolder()
 # datefolder()
 # makescreenshot()
