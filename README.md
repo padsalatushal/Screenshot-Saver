@@ -29,6 +29,8 @@ Ctrl + Space :: Take Screenshot and save it
 Ctrl + Shift + q :: Exit the tool
 ```
 
+## Screenshots
+![image](https://user-images.githubusercontent.com/57517785/137616696-961cbec7-64ff-4aba-bbbe-ed9ce0ed14dd.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
