@@ -35,6 +35,7 @@ When you first time run this tool and for taking screenshot you press ctrl+space
 
 
 ![image](https://user-images.githubusercontent.com/57517785/137616696-961cbec7-64ff-4aba-bbbe-ed9ce0ed14dd.png)
+
                                                                                 •••
 Inside Sreenshot folder this tool create folder named with date for organize screenshots:
 
