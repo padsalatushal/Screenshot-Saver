@@ -3,8 +3,11 @@
 Screenshot Saver is a Python based tool for take screenshot easily and save it with organize way.
 
 ## Installation
+Just Click on Here for [Download](https://github.com/Trushal2004/Screenshot-Saver/raw/main/Screenshot-Saver.exe) tool.
 
-Just download the [Release](https://github.com/Trushal2004/Screenshot-Saver/releases/tag/v.1.1-alpha) of this tool.
+Or
+
+download the from [Release](https://github.com/Trushal2004/Screenshot-Saver/releases/tag/v.1.1-alpha) of this tool.
 
 This release Screenshot-saver-1.1.alpha.exe is Portable Executable(PE) file.That means you don't need to install this tool. Just run this exe and tool work fine.
 
