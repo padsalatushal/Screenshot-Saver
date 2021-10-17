@@ -43,6 +43,8 @@ Inside Sreenshot folder this tool create folder named with date for organize scr
 
 
 For example this tool save all screenshot you take in  17 oct 2021 in folder named 17-10-2021
+
+
 Format of folder name : date-month-year
 
 
@@ -53,6 +55,8 @@ Each screenshot saved with spacific name.The name is choosen by time:
 
 
 For example this tool save screenshot with time like when you take screenshot 12:03 the tool save screenshot named 12-03-11
+
+
 Format of screenshot name : hour-minute-second
 
 
